@@ -1,0 +1,24 @@
+# --- Orquestación e Inteligencia ---
+langgraph
+langchain
+langchain-core
+
+# --- Modelos LLM ---
+langchain-google-genai    # Para conectar con Gemini 1.5 Flash
+langchain-groq            # Para conectar con Llama 3 vía Groq
+
+# --- Base de Datos Vectorial (Memoria) ---
+chromadb
+langchain-chroma
+
+# --- Conectividad Email (Gmail API nativa) ---
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# --- Interfaz de Usuario (Dashboard) ---
+streamlit                 # Para el dashboard de aprobación manual
+
+# --- Herramientas Adicionales ---
+python-dotenv             # Para leer el archivo .env
+mcp                       # Model Context Protocol SDK
